@@ -619,6 +619,7 @@ h1 span{
 
 .grid img{
   width:285px;
+  height:200px;
   float: left;
   position: relative;
 }
@@ -889,27 +890,6 @@ h1 span{
   font-size:32px;
   font-weight:300;
   text-align:center;
-}
-
-.partners .logo{
-  position:relative;
-  width:900px;
-  overflow:hidden;
-  margin-top:50px;
-  text-align:center;
-}
-
-.partners .logo img{
-  opacity:0.5;
-  -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-}
-
-.partners .logo img:hover{
-  opacity:1;
 }
 
 /* Contact */
