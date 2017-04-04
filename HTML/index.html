@@ -7,13 +7,11 @@
 
   <title>Sol - Web Developer</title>
 
-  <link rel="stylesheet" type="text/css" href="css/reset.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-
   <div class="preloader" id="preloader">
     <div class="item">
       <img src="img/loading.gif">
@@ -110,12 +108,65 @@
     <div class="portfolio-margin">
       <h1>PORTFOLIO</h1>
       <hr/>
+      <br /><br />
 
-      <!-- 1 item portoflio-->
+      <div class="slideshow" style="max-width:100%">
+        <div class="left-arrow" onclick="plusDivs(-1)">&#10094;</div>
+        <div class="right-arrow" onclick="plusDivs(1)">&#10095;</div>
+
+        <div class="mySlide">
+          <img class="slide-img" src="img/portfolio/1.png">
+          <div class="slide-text">
+            <div class="slide-text-wrapper">
+            <center>
+              <div class="slide-title">Buket</div>
+            </center>
+            <p class="slide-desc">A social web app to create bucket lists, track your goals, and share experiences [Sinatra, SQLite, HTML, CSS]</p>
+            <center>
+            <button target="_blank" href="http://www.github.com/" class="github-button">Github</button>
+          </center>
+
+          </div>
+          </div>
+        </div>
+        <div class="mySlide">
+          <img class="slide-img" src="img/portfolio/2.png">
+          <div class="slide-text">
+            <div class="slide-text-wrapper">
+            <center>
+              <div class="slide-title">Instagram Sign In (Buket)</div>
+            </center>
+            <p class="slide-desc">A recreation of the Instragram Sign In page, using just HTML and CSS</p>
+            <center>
+            <button target="_blank" href="http://www.github.com/" class="github-button">Github</button>
+          </center>
+
+          </div>
+          </div>
+        </div>
+        <div class="mySlide">
+          <img class="slide-img" src="img/portfolio/3.png">
+          <div class="slide-text">
+            <div class="slide-text-wrapper">
+            <center>
+              <div class="slide-title">Bucket (Buket 2.0)</div>
+            </center>
+            <p class="slide-desc">An extended version of Buket that includes features like following other users, leaving comments, and more for a comprehensive social app.<br />
+            [Rails]</p>
+            <center>
+            <button target="_blank" href="http://www.github.com/" class="github-button">Github</button>
+          </center>
+
+          </div>
+          </div>
+        </div>
+  </div>
+
+    <!-- 1 item portoflio-->
 
       <ul class="grid">
 
-        <li>
+        <li class="grow">
           <!-- <a href="#"> -->
             <img src="img/portfolio/1.png" alt="Portfolio item" />
             <div class="text">
@@ -166,86 +217,7 @@
           </a>
         </li>
 
-        <!-- 5 item portoflio-->
-<!--
-        <li>
-          <a href="#">
-            <img src="img/portfolio/5.png" alt="Portfolio item" />
-            <div class="no-text">
-              <p></p>
-              <p class="description"></p>
-            </div>
-          </a>
-        </li> -->
-
-
-        <!-- 6 item portoflio-->
-
-        <!-- <li>
-          <a href="#">
-            <img src="img/portfolio/6.png" alt="Portfolio item" />
-            <div class="text">
-              <p>PORTFOLIO 6</p>
-              <p class="description">Your text here...</p>
-            </div>
-          </a>
-        </li> -->
-
-        <!-- 7 item portoflio-->
-
-        <!-- <li>
-          <a href="#">
-            <img src="img/portfolio/7.png" alt="Portfolio item" />
-            <div class="text">
-              <p>PORTFOLIO 7</p>
-              <p class="description">Your text here...</p>
-            </div>
-          </a>
-        </li> -->
-
-        <!-- 8 item portoflio-->
-
-        <!-- <li>
-          <a href="#">
-            <img src="img/portfolio/8.png" alt="Portfolio item" />
-            <div class="text">
-              <p>PORTFOLIO 8</p>
-              <p class="description">Your text here...</p>
-            </div>
-          </a>
-        </li> -->
-
-        <!-- 9 item portoflio-->
-
-        <!-- <li>
-          <a href="#">
-            <img src="img/portfolio/9.png" alt="Portfolio item" />
-            <div class="text">
-              <p>PORTFOLIO 9</p>
-              <p class="description">Your text here...</p>
-            </div>
-          </a>
-        </li> -->
-
-        <!-- 10 item portoflio-->
-<!--
-        <li>
-          <a href="#">
-            <img src="img/portfolio/10.png" alt="Portfolio item" />
-            <div class="text">
-              <p>PORTFOLIO 11</p>
-              <p class="description">Your text here...</p>
-            </div>
-          </a>
-        </li>
-
-         -->
-
-
-
       </ul>
-
-      <!-- <a href="#"><div class="read-more">Read more</div></a> -->
 
     </div>
 
@@ -255,7 +227,6 @@
   <div class="clear"></div>
 
   <section class="resume" id="resume">
-
     <div class="content">
       <h1>RESUME</h1>
       <hr/>
@@ -270,7 +241,7 @@
           <br /><center>
             download as <a style="color:blue;" href="./pdf/Resume.pdf" download>pdf</a>
             | |
-            download as <a style="color:blue;" href="./pdf/Resume.pdf" download>.doc</a>
+            download as <a style="color:blue;" href="./pdf/Resume.docx" download>.doc</a>
           </center><br />
           <object id="my-resume" data="./pdf/Resume.pdf" type="application/pdf" width="100%" height="400px">
             <p><b>Error</b>: This browser does not support PDFs. Please download the PDF to view it: <a href="./pdf/SolJinResume2.0.pdf">Download PDF</a>.</p>
@@ -278,6 +249,7 @@
         </div>
 
       </div>
+  <!-- Modal END -->
 
       <div class="column-one">
         <div class="circle-one"></div>
@@ -288,7 +260,7 @@
       <div class="column-two">
         <div class="circle-two"></div>
         <h2>EXPERIENCE.</h2>
-        <p>I come from a strong background in sales and customer service. I was a <span style="color:black;font-weight:bolder;">Technical Recruiter</span> in the Applications space at <a target="_blank"  href="https://www.teksystems.com/"><span style="color:black;font-weight:bolder;">TEKsystems</span></a>, where I recruited top IT talent for the Capital Markets &amp; Investment Banking vertical. I then headed up the consulting divison as <span style="color:black;font-weight:bolder;">Director of Recruitment, Consulting Services</span> at a startup recruiting agency called <span style="color:black;font-weight:bolder;">ISPOSSIBLE IN TECH</span>. I also teach yoga at <span style="color:black;font-weight:bolder;">Crossfit Outbreak.</span> <a target="_blank" href="http://crossfitoutbreak.com/locations/east-williamsburg/schedule/">Join me</a> for a class!</p>
+        <p>I come from a strong background in sales and customer service. I was a <span style="color:black;font-weight:bolder;">Technical Recruiter</span> in the Applications space at <a target="_blank"  href="https://www.teksystems.com/"><span style="color:black;font-weight:bolder;">TEKsystems</span></a>, where I recruited top IT talent for the Capital Markets &amp; Investment Banking vertical. I then headed up the consulting divison as <span style="color:black;font-weight:bolder;">Director of Recruitment, Consulting Services</span> at a startup recruiting agency called <span style="color:black;font-weight:bolder;">ISPOSSIBLE IN TECH</span>. I also teach yoga at <span style="color:black;font-weight:bolder;">Crossfit Outbreak.</span>
       </div>
 
       <div class="column-three">
@@ -311,7 +283,7 @@
         </p>
       </div>
 
-    <div class="column-one">
+    <!-- <div class="column-one">
       <h2>ACHIEVEMENTS</h2>
       <p>
         <span style="color:black;font-weight:bolder;">+</span> Volunteered aboard for a year as an International English &amp; Math Teacher in India &amp; South Korea
@@ -340,8 +312,8 @@
     <div class="column-three">
       <h2>FUN</h2>
       <p>When I'm not coding, I enjoy practicing yoga and meditation, hiking, eating, playing on my billiards and kickball leagues, and pretty much any and all outdoor activities. I am a HUGE foodie, and love trying new restaurants and cuisines. A born thrill-seeker and adventurer, I live to learn and experience new things.</p>
-    </div>
-
+    </div> -->
+    <br /><br /><br /><br />
   </div>
   </section>
 
@@ -373,37 +345,13 @@
     <div class="content">
 
       <div class="form">
-
-        <form method="post" action="mail.php" name="kontakt">
-
-          <div class="column">
-            YOUR NAME<br/><br/>
-            <input name="name" id="name" value="" />
-          </div>
-
-          <div class="column-2">
-            YOUR E-MAIL<br/><br/>
-            <input name="email" id="email" value="" />
-          </div>
-
-
-          <div class="column-3">
-            MESSAGE<br/><br/>
-            <textarea id="message" name="message" ></textarea>
-          </div>
-
-          <div class="button">
-            <span><input class="submit" id="submit" name="submit" type="submit" value="SEND"></span>
-          </div>
-
-        </form>
+        Want to work together? Questions? Comments? Concerns? Contact me!<br/><br/>
 
       </div>
 
 
       <div class="contact-text">
 
-        Want to work together? Questions? Comments? Concerns? Contact me!<br/><br/>
 
         <strong>Sol Jin</strong><br/><br/>
         <i class="fa fa-lg fa-mobile" aria-hidden="true"></i> (781)408-9944<br />

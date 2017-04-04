@@ -1,5 +1,65 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,300,100,700,900&subset=latin,latin-ext);
 
+.grow{
+  transition: all .2s ease-in-out;
+}
+.grow:hover{
+  transform: scale(1.1);
+}
+.slideshow{
+  position: relative;
+}
+
+.slide-img{
+  width: 60%;
+  float:left;
+  height: 305px;
+}
+.slide-text{
+  font-size: 30px;
+  width:40%;
+  display: inline-block;
+  height: 305px;
+  position: relative;
+  background-color:#f3f3f3;
+}
+.slide-desc{
+  color: #a4a4a4;
+  margin:40px auto;
+  width:300px;
+  line-height:26px;
+  letter-spacing:0;
+  font-size:14px;
+  font-weight:300;
+  text-align:center;
+}
+.slide-text-wrapper{
+
+}
+
+.slide-title{
+  font-size:22px;
+  color:black;
+  text-align:center;
+  letter-spacing:6px;
+  font-weight:bold;
+  text-transform:uppercase;
+  line-height:1.2;
+}
+.left-arrow{
+  position: absolute;
+  float:left;
+  margin-left: 10px;
+  font-size: 2em;
+  cursor:pointer;
+}
+.right-arrow{
+  float:right;
+  margin-right: 10px;
+  font-size: 2em;
+  cursor:pointer;
+}
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -128,14 +188,13 @@ h1 span{
   height: 1px;
   width:106px;
   border:0;
-
 }
 
 .start-page .opacity{
   position:absolute;
   width:100%;
   height:100%;
-  background:rgba(51,51,51,0.5); /* Standard Off */
+  background:rgba(51,51,51,0.8); /* Standard Off */
 }
 
 
@@ -387,7 +446,7 @@ h1 span{
 
 }
 
-.about hr{
+/*.about hr{
   color: black;
   margin-top:30px;
   background-color: black;
@@ -395,7 +454,7 @@ h1 span{
   width:106px;
   border:0;
 
-}
+}*/
 
 .about p.title{
   color: #a4a4a4;
@@ -714,7 +773,7 @@ h1 span{
 
 }
 
-.resume hr{
+/*.resume hr{
   color: black;
   margin-top:30px;
   background-color: black;
@@ -722,7 +781,7 @@ h1 span{
   width:106px;
   border:0;
 
-}
+}*/
 
 .resume p.title{
   color: #a4a4a4;
@@ -922,7 +981,7 @@ h1 span{
   line-height:1.2;
 }
 
-.contact hr{
+hr{
   color: black;
   margin-top:30px;
   background-color: black;
@@ -930,6 +989,7 @@ h1 span{
   width:106px;
   border:0;
 }
+
 
 .contact .content .form{
   width:455px;
@@ -978,7 +1038,7 @@ h1 span{
 }
 
 #contact > div > div.contact-text > a{
-  font-size:18px;
+  font-size:20px;
 }
 
 strong{
@@ -1104,4 +1164,14 @@ input.submit{
 html, body{
   max-width: 100%;
     overflow-x: hidden;
+}
+
+.form{
+  width: 405px;
+  overflow: hidden;
+  height: auto;
+  font-weight: 300;
+  color: black;
+  font-size: 28px;
+  line-height: 26px;
 }
