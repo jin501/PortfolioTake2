@@ -933,9 +933,13 @@ hr{
 
 
 .contact .content .form{
-  width:455px;
-  overflow:hidden;
-  height:auto;
+  width: 405px;
+  overflow: hidden;
+  height: auto;
+  font-weight: 300;
+  color: black;
+  font-size: 28px;
+  line-height: 26px;
   float:left;
 }
 
@@ -958,15 +962,7 @@ hr{
   margin-bottom:30px;
 }
 
-.contact .content .form .column-3{
-  width:450px;
-  overflow:hidden;
-  height:auto;
-  float:left;
-  letter-spacing:1px;
-}
-
-.contact .content .contact-text{
+.contact .content .contact-text {
   width:405px;
   overflow:hidden;
   height:auto;
@@ -978,70 +974,8 @@ hr{
   line-height:26px;
 }
 
-#contact > div > div.contact-text > a{
-  font-size:20px;
-}
-
-strong{
-  font-weight:700;
-
-}
-
-input{
-
-  width:180px;
-  height:40px;
-  background:#f8f7f7;
-  border-top:1px solid #333;
-  border-bottom:0;
-  border-left:0;
-  border-right:0;
-  color:#333;
-  font-weight:300;
-  line-height:40px;
-  padding-left:15px;
-  font-family: 'Lato', sans-serif;
-  font-size:14px;
-  margin-bottom:10px;
-}
-
-input:focus{background:#f4f4f4;}
-
-textarea{
-
-  width:420px;
-  height:150px;
-  border-top:1px solid #333;
-  border-bottom:0;
-  line-height:20px;
-  border-left:0;
-  border-right:0;
-  background:#f8f7f7;
-  color:#333;
-  font-weight:300;
-  padding:15px 0 0 15px;
-  font-family: 'Lato', sans-serif;
-  font-size:14px;
-  margin-bottom:10px;
-}
-
-textarea:focus{background:#f4f4f4;}
-
-
-input.submit{
-  width:100px;
-  height:34px;
-  float:right;
-  margin:20px 10px 0 0;
-  border:0;
-  font-weight:700;
-  text-align:right;
-  background:none;
-  -webkit-transition: all 0.6s ease-in;
-	-moz-transition: all 0.6s ease-in;
-	-ms-transition: all 0.6s ease-in;
-	-o-transition: all 0.6s ease-in;
-	transition: all 0.6s ease-in;
+.contact .content .contact-text a{
+  font-size:18px;
 }
 
 /* Footer */
@@ -1107,15 +1041,6 @@ html, body{
     overflow-x: hidden;
 }
 
-.form{
-  width: 405px;
-  overflow: hidden;
-  height: auto;
-  font-weight: 300;
-  color: black;
-  font-size: 28px;
-  line-height: 26px;
-}
 
 .grow{
   transition: all .2s ease-in-out;
