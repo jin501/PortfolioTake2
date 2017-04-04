@@ -1,64 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,300,100,700,900&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900&subset=latin,latin-ext);
 
-.grow{
-  transition: all .2s ease-in-out;
-}
-.grow:hover{
-  transform: scale(1.1);
-}
-.slideshow{
-  position: relative;
-}
-
-.slide-img{
-  width: 60%;
-  float:left;
-  height: 305px;
-}
-.slide-text{
-  font-size: 30px;
-  width:40%;
-  display: inline-block;
-  height: 305px;
-  position: relative;
-  background-color:#f3f3f3;
-}
-.slide-desc{
-  color: #a4a4a4;
-  margin:40px auto;
-  width:300px;
-  line-height:26px;
-  letter-spacing:0;
-  font-size:14px;
-  font-weight:300;
-  text-align:center;
-}
-.slide-text-wrapper{
-
-}
-
-.slide-title{
-  font-size:22px;
-  color:black;
-  text-align:center;
-  letter-spacing:6px;
-  font-weight:bold;
-  text-transform:uppercase;
-  line-height:1.2;
-}
-.left-arrow{
-  position: absolute;
-  float:left;
-  margin-left: 10px;
-  font-size: 2em;
-  cursor:pointer;
-}
-.right-arrow{
-  float:right;
-  margin-right: 10px;
-  font-size: 2em;
-  cursor:pointer;
-}
 
 .modal {
     display: none; /* Hidden by default */
@@ -1174,4 +1115,64 @@ html, body{
   color: black;
   font-size: 28px;
   line-height: 26px;
+}
+
+.grow{
+  transition: all .2s ease-in-out;
+}
+.grow:hover{
+  transform: scale(1.1);
+}
+.slideshow{
+  position: relative;
+}
+
+.slide-img{
+  width: 60%;
+  float:left;
+  height: 305px;
+}
+.slide-text{
+  font-size: 30px;
+  width:40%;
+  display: inline-block;
+  height: 305px;
+  position: relative;
+  background-color:#f3f3f3;
+}
+.slide-desc{
+  color: #a4a4a4;
+  margin:40px auto;
+  width:300px;
+  line-height:26px;
+  letter-spacing:0;
+  font-size:14px;
+  font-weight:300;
+  text-align:center;
+}
+.slide-text-wrapper{
+
+}
+
+.slide-title{
+  font-size:22px;
+  color:black;
+  text-align:center;
+  letter-spacing:6px;
+  font-weight:bold;
+  text-transform:uppercase;
+  line-height:1.2;
+}
+.left-arrow{
+  position: absolute;
+  float:left;
+  margin-left: 10px;
+  font-size: 2em;
+  cursor:pointer;
+}
+.right-arrow{
+  float:right;
+  margin-right: 10px;
+  font-size: 2em;
+  cursor:pointer;
 }
